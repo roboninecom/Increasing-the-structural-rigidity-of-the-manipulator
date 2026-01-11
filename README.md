@@ -97,7 +97,7 @@ The Solid Isotropic Material with Penalization (SIMP) method was employed to fin
 
 | FEM of Optimized Design | Results |
 |:---:|:---:|
-| ![Optimized FEM](media/FEM_optimize.jpg) | ![Results](media/results.jpg) |
+| ![Optimized FEM](media/FEM_optimize.jpg) | ![Results](media/FEM_results.jpg) |
 
 ## Software Used
 

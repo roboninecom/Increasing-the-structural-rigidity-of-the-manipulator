@@ -194,7 +194,7 @@ The analysis results were as follows:
 | Maximum displacement |  1.03 | 1.05  | 0.62  | 0.12  | 0.17  |  0.03 |
 | Maximum stress |  93 | 92  | 65  |  10 | 14  |  4 |
 
-![Calculation results](media/FEM_results.jpg)  
+![Calculation results](media/results.jpg)  
 Figure 17 – Location of the most loaded areas, load case and stresses occurring in these areas  
 Maximum stresses occur at bolt attachment nodes to parts. The fin is subjected to the highest stress.
 
@@ -292,7 +292,7 @@ After selecting the shape, a verification analysis must be performed:
 ![FEM of optimized structure](media/FEM_optimize.jpg)  
 Figure 5 – FEM of optimized structure
 
-![Optimized structure calculation results](media/results.jpg)  
+![Optimized structure calculation results](media/FEM_results.jpg)  
 Figure 5 – Obtained calculation results of optimized structure
 
 | Load Case | Fx | Fy | Fz | Mx | My | Mz |

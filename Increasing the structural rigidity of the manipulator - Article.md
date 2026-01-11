@@ -243,7 +243,7 @@ The analysis results were as follows:
 | Maximum displacement (mm) | 1.03 | 1.05 | 0.62 | 0.12 | 0.17 | 0.03 |
 | Maximum stress (MPa) | 93 | 92 | 65 | 10 | 14 | 4 |
 
-![Calculation results](media/FEM_results.jpg)
+![Calculation results](media/results.jpg)
 
 *Figure 17 – Location of the most loaded areas, load case and stresses occurring in these areas*
 
@@ -428,7 +428,7 @@ After selecting the shape, a verification analysis must be performed:
 
 *Figure 26 – FEM of optimized structure*
 
-![Optimized structure calculation results](media/results.jpg)
+![Optimized structure calculation results](media/FEM_results.jpg)
 
 *Figure 27 – Obtained calculation results of optimized structure*
 
