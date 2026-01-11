@@ -239,7 +239,7 @@ OptiStruct offers several different methods to account for manufacturability whe
 **draw direction** - In the casting or milling process, it is impossible to create cavities that are not open and aligned in the direction of die sliding. Designs resulting from topology optimization often contain cavities that are not suitable for casting or milling. Converting such a design solution into a manufacturable design can be extremely difficult, if not impossible.   
 OptiStruct allows setting draw direction constraints so that a certain topology allows the die to slide in a given direction.   
 Two draw options are available. The "SINGLE" option assumes that one die will be used, moving in a given draw direction. The bottom surface of the part being cast is a predefined working part for the die. The "SPLIT" option implies that two dies will be used to cast the part described in this DTPL card, separating in a given draw direction.  
-![Difference between draw single and draw split](media/optimization_type.jpg)  
+![Difference between draw single and draw split](media/draw.jpg)  
 Figure 21 – Difference between draw single and draw split  
 When using the 'SINGLE' draw option, there may be constraints when manufacturing stamping or sheet metal. This parameter accelerates the evolution of a structure interpretable as a 3D shell, 3D design area. This allows designing 2D shells or stamped parts from a 3D design area, providing greater design flexibility.   
 The part may contain not only a design area but also a non-design area. These non-design areas must be defined as obstacles to the process. This preserves the ability to cast the final design. Also note that there is a default minimum element size for use with draw direction constraints. This value is defined as three times the average cell size for the corresponding components. Thus, the mesh density of the model and the required volume fraction should be chosen so that there is enough material to fill the default minimum size elements. The user can specify the desired minimum element size for each structural part. 
@@ -248,7 +248,7 @@ The part may contain not only a design area but also a non-design area. These no
 **Pattern grouping** - linking variables so that desired structural shapes are formed. Linear, planar, circular, radial, etc. Shaped structural elements are controlled by individual variables, ensuring that the design will match the desired pattern. The single-plane, two-plane, three-plane, and cyclic symmetry pattern grouping options also use a similar approach to ensure symmetry is created in the solution.
 
 **Obtained optimization variants for the steel bracket.**  
-![Fin optimization variants](media/optimization_type_2.jpg)  
+![Fin optimization variants](media/optimization_type.jpg)  
 Figure 22 – Obtained optimization variants for the fin
 
 |   | A | B | C | D | E | F | G | H | I |
@@ -260,7 +260,7 @@ Figure 22 – Obtained optimization variants for the fin
 As can be seen from the obtained optimization patterns, the YZ plane of the bracket is responsible for the bending stiffness of the manipulator about the X-axis. This wall is recommended to be increased to a thickness of 6 mm; this part contributes the most to stiffness along the Y-axis. The XZ plane of the bracket is responsible for bending about the Y-axis, and this plane can be made from 3 mm thick. The choice of specific contour and its outlining depends only on the engineer. Red areas are those areas that are most loaded, while the yellow-green border represents optional areas, and whether to include them or not is decided by the engineer.
 
 **Obtained optimization variants for the steel U-shaped bracket.**  
-![U-shaped steel bracket optimization variants](media/optimization_type_4.jpg)  
+![U-shaped steel bracket optimization variants](media/optimization_type_2.jpg)  
 Figure 23 – Obtained optimization variants for the U-shaped steel bracket
 
 |   | A | B | C | D | E | F | G |
@@ -272,7 +272,7 @@ Figure 23 – Obtained optimization variants for the U-shaped steel bracket
 As can be seen from the obtained optimization patterns of the steel U-shaped bracket, the central hole is not loaded. It is also recommended to expand the bracket base and increase the thickness to 6 mm.
 
 **Obtained optimization variants for the aluminum bracket.**  
-![Aluminum bracket optimization variants](media/optimization.png)  
+![Aluminum bracket optimization variants](media/optimization_type_4.jpg)  
 Figure 24 – Obtained optimization variants for the aluminum bracket
 
 |   | A | B | C | D | E | F | G | H | I |

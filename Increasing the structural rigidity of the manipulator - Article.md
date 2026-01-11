@@ -353,7 +353,7 @@ Two draw options are available:
 - The **"SINGLE"** option assumes that one die will be used, moving in a given draw direction. The bottom surface of the part being cast is a predefined working part for the die.
 - The **"SPLIT"** option implies that two dies will be used to cast the part described in this DTPL card, separating in a given draw direction.
 
-![Difference between draw single and draw split](media/optimization_type.jpg)
+![Difference between draw single and draw split](media/draw.jpg)
 
 *Figure 21 – Difference between draw single and draw split*
 
@@ -369,7 +369,7 @@ The part may contain not only a design area but also a non-design area. These no
 
 ### Optimization Results for Steel "Fin" Bracket
 
-![Fin optimization variants](media/optimization_type_2.jpg)
+![Fin optimization variants](media/optimization_type.jpg)
 
 *Figure 22 – Obtained optimization variants for the fin*
 
@@ -385,7 +385,7 @@ As can be seen from the obtained optimization patterns, the YZ plane of the brac
 
 ### Optimization Results for Steel U-Shaped Bracket
 
-![U-shaped steel bracket optimization variants](media/optimization_type_4.jpg)
+![U-shaped steel bracket optimization variants](media/optimization_type_2.jpg)
 
 *Figure 23 – Obtained optimization variants for the U-shaped steel bracket*
 
@@ -401,7 +401,7 @@ As can be seen from the obtained optimization patterns of the steel U-shaped bra
 
 ### Optimization Results for Aluminum Bracket
 
-![Aluminum bracket optimization variants](media/optimization.png)
+![Aluminum bracket optimization variants](media/optimization_type_4.jpg)
 
 *Figure 24 – Obtained optimization variants for the aluminum bracket*
 

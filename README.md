@@ -91,7 +91,7 @@ The Solid Isotropic Material with Penalization (SIMP) method was employed to fin
 
 | Steel Fin Bracket | Steel U-shaped Bracket | Aluminum Bracket |
 |:---:|:---:|:---:|
-| ![Fin Optimization](media/optimization_type_2.jpg) | ![U-bracket Optimization](media/optimization_type_4.jpg) | ![Aluminum Optimization](media/optimization.png) |
+| ![Fin Optimization](media/optimization_type.jpg) | ![U-bracket Optimization](media/optimization_type_2.jpg) | ![Aluminum Optimization](media/optimization_type_4.jpg) |
 
 ### Optimized Structure Analysis
 
