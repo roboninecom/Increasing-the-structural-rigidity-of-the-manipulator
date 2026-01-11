@@ -2,7 +2,7 @@
 
 A research and development project focused on optimizing the structural rigidity of a robotic manipulator through topology optimization using the SIMP algorithm.
 
-![Manipulator General View](media/manipulator_1.jpg)
+![Manipulator General View](media/co-arm-1-structure.png)
 
 ## Project Overview
 
