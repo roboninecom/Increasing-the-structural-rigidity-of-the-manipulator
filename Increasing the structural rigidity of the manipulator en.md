@@ -291,10 +291,10 @@ Figure 25 – The stiffest bending cross-section
 
 After selecting the shape, a verification analysis must be performed:  
 ![FEM of optimized structure](media/FEM_optimize.jpg)  
-Figure 5 – FEM of optimized structure
+Figure 26 – FEM of optimized structure
 
 ![Optimized structure calculation results](media/FEM_results.jpg)  
-Figure 5 – Obtained calculation results of optimized structure
+Figure 27 – Obtained calculation results of optimized structure
 
 | Load Case | Fx | Fy | Fz | Mx | My | Mz |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
