@@ -86,9 +86,9 @@ The following abbreviations and designations are used in this scientific and tec
 As initial data for the analysis of the manipulator design, the Customer provided a contour made in surfaces, as well as an EM of the manipulator in folded form. Within the scope of work, an analysis of the manipulator was conducted and the stiffness properties of the structure were increased, capable of withstanding the static loads and overloads from motors acting on it, while having the minimum possible mass.  
 As initial data for optimizing the manipulator design, the Customer provided an EM of the manipulator. Within the scope of work, the design was refined and calculated for static strength under overload conditions, and recommendations for refinement were developed.
 
-1. # **Development of the Manipulator Design** {#development-of-the-manipulator-design}
+1. # **Development of the Manipulator Design**
 
-   1. ## **Formation of the Manipulator Concept** {#formation-of-the-manipulator-concept}
+   1. ## **Formation of the Manipulator Concept**
 
 Within the scope of work, it was required to optimize the manipulator design. According to the technical requirements, the main requirements for the manipulator design are as follows:
 
@@ -102,7 +102,7 @@ Within the scope of work, it was required to optimize the manipulator design. Ac
 
 - Do not increase the number of unique (custom-manufactured) parts.
 
-  2. ## 	 **Description of the Main Elements of the Manipulator** {#description-of-the-main-elements-of-the-manipulator}
+  2. ## 	 **Description of the Main Elements of the Manipulator**
 
 The stiffness requirement is expected to be met by changing the shape of the brackets in the main part of the manipulator.  
 ![Manipulator general view 1](media/manipulator_1.jpg)  
@@ -125,7 +125,7 @@ Figure 6 – Model elements made of steel
 ![Aluminum elements](media/alum.jpg)  
 Figure 7 – Model elements made of aluminum
 
-## **1.3 Building the FEM Model** {#13-building-the-fem-model}
+## **1.3 Building the FEM Model**
 
 To create the FEM, it is necessary to simplify the model for faster operation. It was decided to consider the stand as absolutely rigid and replace the attachment of manipulator nodes to the stand with boundary conditions (by fixing the attachment points of the manipulator to the stand). It was also decided to replace the modeling of the last link of the manipulator (gripper assembly) with an absolutely rigid link.   
 ![FEM model general view](media/FEM_model.jpg)  
@@ -151,7 +151,7 @@ Between the bearing and aluminum bracket, it was decided to create a Slide type 
 ![Contact interaction](media/Contact.jpg)  
 Figure 16 – Contact interaction of bearings and bracket.
 
-## **1.4 Formation of Load Cases** {#14-formation-of-load-cases}
+## **1.4 Formation of Load Cases**
 
 To calculate the manipulator for static strength, it is necessary to determine the loading modes.   
 Let's define the safety factor K as 1.5. The vertical force is calculated as the load mass m times the acceleration due to gravity g times the safety factor K.  
@@ -185,7 +185,7 @@ Mz=Jz_cg+m\*d3²Kε=133 N·mm
 | d | Distance from load CG to rotation axis (with index 1, 2, 3) | mm |
 | l | Distance from force application point to rotation axis (with index 1, 2) | mm |
 
-## **1.5 Analysis of Results** {#15-analysis-of-results}
+## **1.5 Analysis of Results**
 
 The analysis results were as follows:
 
@@ -198,7 +198,7 @@ The analysis results were as follows:
 Figure 17 – Location of the most loaded areas, load case and stresses occurring in these areas  
 Maximum stresses occur at bolt attachment nodes to parts. The fin is subjected to the highest stress.
 
-## **1.6 Fundamentals of the Topology Optimization Method (using the SIMP algorithm)** {#16-fundamentals-of-the-topology-optimization-method-using-the-simp-algorithm}
+## **1.6 Fundamentals of the Topology Optimization Method (using the SIMP algorithm)**
 
 Optimization methods are divided into two categories – conceptual design and refinements.  
 Optimization at the conceptual level means performing optimization (either topology or topography optimization) at the initial stage of the design process to create the best shape from which to proceed further.  
@@ -286,7 +286,7 @@ As can be seen from the obtained optimization patterns, replacing the aluminum b
 ![Bending cross-section 2](media/stiffness_section.jpg)  
 Figure 25 – The stiffest bending cross-section
 
-## **1.7 Verification Analysis** {#17-verification-analysis}
+## **1.7 Verification Analysis**
 
 After selecting the shape, a verification analysis must be performed:  
 ![FEM of optimized structure](media/FEM_optimize.jpg)  
@@ -313,7 +313,7 @@ Maximum stresses occur at bolt attachment nodes to parts.
 | Deflection from My | 0.17 mm | 0.05 mm |
 | Deflection from Mz | 0.03 mm | 0.01 mm |
 
-## **Conclusions** {#conclusions}
+## **Conclusions**
 
 **The technical requirements were not met**; to ensure **the required stiffness, the allowed mass should be increased by more than 15% from the current value**. Significant stiffness improvement was achieved: as a result of topology optimization of key structural elements, a reduction in compliance was achieved. Manipulator displacements decreased by 57–76% depending on the load case.
 
