@@ -327,7 +327,7 @@ To perform optimization, it is necessary to create variables or parameters (resp
 
 **First parameter - wcompliance (weighted compliance).** The ratio has the form:
 
-![Formula](media/draw.jpg)
+$$C_w = \sum_i W_i C_i = \frac{1}{2} \sum_i W_i u_i^T f_i$$
 
 **Second parameter - mass in the given design space.** This parameter gives us the mass of the design area. It can be defined for the entire structure, as well as for individual properties (components) and materials or for groups of properties (components) and materials.
 
